@@ -2,13 +2,95 @@
 body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-  color: #616971;
+  color: #4f190d;
 }
+
+/* Custom settings */
+
+.main-color {
+  background: #000000;;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #ac2615;
+}
+
+p.brand-border {
+  background-image: linear-gradient(to right, #DB9B3A, #AC2615);
+  min-height: 0!important;
+  padding: .4rem 0!important;
+  margin: 0;
+}
+
+.brand-color {
+  background: #DB9B3A!important;
+  color: #DB9B3A!important;
+  background-color: #DB9B3A!important;
+}
+
+.img-constraint {
+  height: 200px;
+  max-width: 300px;
+}
+
+.brand-border-simple {
+  background-image: linear-gradient(to right, #68291b, #68291b);
+  min-height: 0!important;
+  padding: 3rem 0!important;
+  color: #ffffff;
+  font-size: 200%;
+  padding-left: 2rem!important;
+}
+
+.special-h1 {
+  font-size: larger;
+}
+
+a.nav-link:hover {
+  color: #68291b!important;
+}
+a.nav-link:active {
+  color: #68291b!important;
+}
+a.nav-link:focus {
+  color: #68291b!important;
+}
+a.active {
+  color: #68291b!important;
+}
+
+.carousel-caption {
+  top: 9rem!important;
+  bottom: auto;
+}
+
+.schedule {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.schedule-image {
+  background: url(../img/schedule-img.jpg);
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-position: center;
+}
+
+.centred-window {
+
+}
+
 
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background: #7aaec4;
+  background: #68291b;
   height: 2.8rem;
   padding: .5rem 0;
 }
@@ -20,8 +102,14 @@ body {
 
 /*============= NAVIGATION =============*/
 
-.navbar-brand img {
+.navbar-brand {
   height: 3rem;
+  font-size: larger;
+  color: #4f190d!important;
+}
+
+.brand-font {
+  color: #4f190d!important;
 }
 
 .navbar {
@@ -42,7 +130,7 @@ body {
 
 .nav-link.active,
 .nav-link:hover {
-  color: #4981b3!important;
+  color: #68291b!important;
 }
 
 /*============= CAROUSEL =============*/
@@ -52,7 +140,6 @@ body {
 }
 
 .carousel-inner {
-  max-height: 38rem!important;
 
 }
 
@@ -76,7 +163,30 @@ body {
 .bg-custom {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
-  border-radius: 1rem;
+  border-radius: 3rem;
+  color: #eee;
+  padding: 0 0.9em;
+  line-height:1em;
+  width: auto;
+}
+
+.orange-window {
+  background-color: rgba(217, 111, 34, 0.67);
+  border-radius: 3rem;
+  padding: 0 0.9em;
+  line-height:1em;
+  width: auto;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.orange-bg {
+  background: url(../img/second-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+  background-position: center;
 }
 
 .carousel-caption h1 {
@@ -149,8 +259,8 @@ body {
 /*============= FOOTER =============*/
 
 footer {
-  background-color: #383838;
-  padding: 1rem 2rem 3rem;
+  background-color: #561818;
+  /* padding: 1rem 2rem 3rem; */
 }
 
 footer img {
